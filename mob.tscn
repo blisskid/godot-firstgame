@@ -54,10 +54,9 @@ script = ExtResource("7_mob")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2082520108]
-scale = Vector2(0.75, 0.75)
+scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_38or4")
-animation = &"walk"
-frame_progress = 0.25854456
+animation = &"fly"
 speed_scale = 3.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2065779222]
